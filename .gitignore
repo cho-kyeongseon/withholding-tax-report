@@ -1,0 +1,25 @@
+# 원본 자료·결과물 (급여대장, 직원정보, 생성된 신고서/검토 파일) — GitHub에 올리지 않음
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.pdf
+*.hwp
+*.hwpx
+# 프로그램에 필요한 서식·세액표는 포함
+!program/간이세액표_*.csv
+!program/별지21호_원천징수이행상황신고서_*.hwp
+
+# 큰 파일·압축본
+*.zip
+*.7z
+
+# Python
+__pycache__/
+*.pyc
+
+# 기타
+~$*
+Thumbs.db
+desktop.ini
+.claude/settings.local.json
